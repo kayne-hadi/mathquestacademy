@@ -69,7 +69,7 @@ body {
 .button-txt {
     font-family: 'Morris Roman', sans-serif;
     font-weight: bold;
-    font-size: 30px;
+    font-size: 20px;
     text-align: center;
     color: blue;
     margin: 5px;
@@ -91,7 +91,7 @@ body {
 }
 
 .logo {
-    width: 400px; /* Set desired width */
+    width: 350px; /* Set desired width */
     height: auto; /* Maintains aspect ratio */
 }
 
