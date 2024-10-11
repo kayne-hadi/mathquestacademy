@@ -10,7 +10,7 @@
 body {
     margin: 0;
     font-family: 'Morris Roman', sans-serif;
-    background-image: url('/assets/statistine.jpg'); /* Path to the image */
+    background-image: url(./assets/statistine.jpg); /* Path to the image */
     background-size: cover;  /* Ensures the image covers the entire div */
     background-position: center;  /* Centers the image */
 }
@@ -18,9 +18,6 @@ body {
 .fullscreen {
     height: 100vh;
     background-color: #FFFFFF;
-    background-image: url('/assets/statistine.jpg'); /* Path to the image */
-    background-size: cover;  /* Ensures the image covers the entire div */
-    background-position: center;  /* Centers the image */
 }
 
 .row {
@@ -37,8 +34,6 @@ body {
     flex-direction: column;
     height: 825px;
     width: 100%;
-    background-image: url('/assets/statistine.jpg');
-    background-size: cover;
 }
 
 .body-txt1 {
