@@ -31,6 +31,8 @@ body {
     flex-direction: column;
     height: 825px;
     width: 100%;
+    align-items: flex-start; /* Aligns content to the top */
+    justify-content: flex-start; /* Aligns content to the left */
 }
 
 .body-txt1 {
@@ -78,6 +80,8 @@ body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    align-self: flex-start; /* Moves the parchment to the left side */
+    margin-left: 20px; /* Optional: Adds space from the left edge */
 }
 
 .divider {
