@@ -1,0 +1,81 @@
+/* styles.css */
+
+body {
+    margin: 0;
+    font-family: 'Morris Roman', sans-serif;
+}
+
+.fullscreen {
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    margin-top: 0;
+}
+
+.background {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    height: 825px;
+    width: 100%;
+    background-image: url('../assets/statistine.jpg');
+    background-size: cover;
+}
+
+.body-txt1 {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 20px 0 0 0;
+}
+
+.body-txt3 {
+    font-weight: bold;
+    font-size: 48px;
+    text-align: center;
+    color: red;
+    margin: 30px 0 0 0;
+}
+
+.input-box {
+    align-self: center;
+    background-color: white;
+    width: 90%;
+    padding: 25px;
+    margin: 15px;
+    font-size: 20px;
+    border-radius: 10px;
+    text-align: center;
+    border: 2px solid;
+}
+
+.button-txt {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+    margin: 5px;
+    cursor: pointer;
+}
+
+.parchment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 650px;
+    width: 580px;
+    padding: 70px;
+}
+
+.divider {
+    height: 2px;
+    background-color: black;
+    width: 100%;
+}
