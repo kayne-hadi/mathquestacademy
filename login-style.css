@@ -2,7 +2,7 @@
 /* Add the @font-face rule */
 @font-face {
     font-family: 'Morris Roman';
-    src: url('/assets/MorrisBlack-Roman.ttf') format('truetype'); /* Adjust the format and path if necessary */
+    src: url('./assets/MorrisBlack-Roman.ttf') format('truetype'); /* Adjust the format and path if necessary */
     font-weight: normal;
     font-style: normal;
 }
