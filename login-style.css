@@ -15,6 +15,9 @@ body {
 .fullscreen {
     height: 100vh;
     background-color: #FFFFFF;
+    background-image: url('../assets/statistine.jpg'); /* Path to the image */
+    background-size: cover;  /* Ensures the image covers the entire div */
+    background-position: center;  /* Centers the image */
 }
 
 .row {
@@ -83,6 +86,9 @@ body {
     height: 650px;
     width: 580px;
     padding: 70px;
+    background-image: url('../assets/parchment.png'); /* Path to the parchment image */
+    background-size: cover;  /* Ensures the image covers the div */
+    background-position: center;  /* Centers the image */
 }
 
 .divider {
