@@ -85,3 +85,9 @@ body {
     background-color: black;
     width: 100%;
 }
+
+.logo {
+    width: 200px; /* Set desired width */
+    height: auto; /* Maintains aspect ratio */
+}
+
