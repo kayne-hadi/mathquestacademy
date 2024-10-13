@@ -46,14 +46,20 @@ body {
 }
 
 .parchment {
+    .parchment {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: center;
-    background-image: url('assets/parchment.png');
+    height: auto;
+    width: 540px;
+    padding: 70px;
+    background-image: url("./assets/parchment.png");
     background-size: cover;
-    width: 380px;
-    height: 600px;
-    margin-right: 50px;
+    background-position: center;
+    margin-left: 40px;
+    margin-top: -20px; /* Reduces space between parchment and the previous element */
+}
+
 }
 
 .button {
