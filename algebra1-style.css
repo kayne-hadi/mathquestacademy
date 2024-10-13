@@ -1,13 +1,15 @@
 /* Fullscreen layout */
 .fullscreen {
     height: 100vh;
-    background-color: #FFFFFF;
+    background-color: transaprent;
 }
 
 /* Background image */
 .background {
     flex-direction: row;
     align-self: flex-start;
+    background-size: cover;
+    background-position: center;
     height: 825px;
     width: 1475px;
 }
