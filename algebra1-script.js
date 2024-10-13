@@ -8,7 +8,7 @@ document.addEventListener('DOMContentLoaded', () => {
         const coefficient = Math.floor(Math.random() * 20) + 2;
         const constant = Math.floor(Math.random() * 200) + 1;
 
-        equation = `${coefficient}a = ${constant}`;
+        equation = `${coefficient}x = ${constant}`;
         document.getElementById('question').textContent = equation;
 
         const correctX = constant / coefficient;
