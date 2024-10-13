@@ -83,18 +83,25 @@
 
 /* Buttons */
 .button3 {
+  font-weight: bold;
+  font-family: 'Morris Roman', serif;
   font-size: 30px;
+  text-align: center;
   color: blue;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #bdbffc;
+  margin: 5px;
+  cursor: pointer;
+  width: 150px; /* Set desired width */
+  padding: 15px 0; /* Optional: Adjust padding for better sizing */
 }
 
 .button2 {
+  font-weight: bold;
+  font-family: 'Morris Roman', serif;
   font-size: 30px;
+  text-align: center;
   color: blue;
-  padding: 10px;
-  border-radius: 10px;
-  background-color: #bdbffc;
-  margin-top: 20px;
+  margin: 5px;
+  cursor: pointer;
+  width: 150px; /* Set desired width */
+  padding: 15px 0; /* Optional: Adjust padding for better sizing */
 }
