@@ -11,6 +11,6 @@ document.querySelector('.button-txt').addEventListener('click', () => {
         localStorage.setItem('username', username);
         
         // Navigate to home page
-        window.location.href = 'home.html'; // Adjust this to the correct path of your home page
+        window.location.href = 'home-index.html'; // Adjust this to the correct path of your home page
     }
 });
