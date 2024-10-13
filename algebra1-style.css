@@ -52,7 +52,7 @@
 
 /* Card styling */
 .custom-card {
-    align-self: flex-end;
+    align-self: flex-start;
     background-color: #bdbffc;
     border-width: 2px;
     border-color: grey;
