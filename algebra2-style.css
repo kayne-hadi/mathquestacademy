@@ -18,14 +18,14 @@
   border-width: 2px;
   border-color: grey;
   padding: 20px;
-  width: 600px;
+  width: 550px;
   margin-bottom: 70px;
   margin-left: 75px;
 }
 
 .steve-image {
-  height: 350px;
-  width: 320px;
+  height: 400px;
+  width: auto;
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -38,7 +38,7 @@
   padding: 10px;
   height: 700px;
   width: 430px;
-  margin-top: 70px;
+  margin-top: 20px;
   margin-left: 300px;
   text-align: center;
 }
