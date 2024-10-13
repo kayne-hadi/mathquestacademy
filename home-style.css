@@ -10,10 +10,16 @@ body {
     font-weight: bold;
     color: #000000;
     text-align: center;
-    margin: 5px;
-    width: 90%; /* Set desired width */
-    padding: 15px 0; /* Optional: Adjust padding for better sizing */
+    margin: 5px; /* Adjust this as needed */
+    width: 90%;
+    padding: 15px 0;
 }
+
+/* Specifically for the greeting message */
+.greeting-message {
+    margin-bottom: -20px; /* Reduces the space below the text */
+}
+
 
 .fullscreen {
     height: 100vh;
