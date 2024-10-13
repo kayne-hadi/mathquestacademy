@@ -5,6 +5,16 @@ body {
     background-color: #FFFFFF;
 }
 
+.body-txt {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin: 5px;
+    width: 90%; /* Set desired width */
+    padding: 15px 0; /* Optional: Adjust padding for better sizing */
+}
+
 .fullscreen {
     height: 100vh;
     display: flex;
@@ -38,17 +48,6 @@ body {
     width: 380px;
     height: 600px;
     margin-right: 50px;
-}
-
-.body-txt {
-    font-size: 30px;
-    font-weight: bold;
-    color: #000000;
-    text-align: center;
-    margin: 5px;
-    cursor: pointer;
-    width: 90%; /* Set desired width */
-    padding: 15px 0; /* Optional: Adjust padding for better sizing */
 }
 
 .button {
