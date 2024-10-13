@@ -45,6 +45,10 @@ body {
     font-weight: bold;
     color: #000000;
     text-align: center;
+    margin: 5px;
+    cursor: pointer;
+    width: 90%; /* Set desired width */
+    padding: 15px 0; /* Optional: Adjust padding for better sizing */
 }
 
 .button {
