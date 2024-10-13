@@ -68,6 +68,14 @@
   margin-top: 20px;
 }
 
+.body-txt2 {
+  font-weight: bold;
+  font-size: 25px;
+  font-family: 'Morris Roman', sans-serif;
+  color: black;
+  margin-top: 20px;
+}
+
 /* Input box */
 .input-box {
   background-color: white;
