@@ -44,7 +44,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     function goToNextLesson() {
-        window.location.href = 'keep-simple.html';
+        window.location.href = 'algebra2-index.html';
     }
 
     window.evaluateX = evaluateX;
