@@ -21,7 +21,7 @@
   border-color: grey;
   padding: 30px; /* Reduced padding */
   width: 1200px; /* Increased width */
-  height: 500px; /* Decreased height */
+  height: 700px; /* Decreased height */
   margin-bottom: 70px;
   margin-left: 75px;
   marign-top: 20px;
@@ -39,9 +39,9 @@
   background-image: url('./assets/parchment.png');
   background-size: cover;
   background-position: center;
-  padding: 5px; /* Reduced padding */
+  padding:10px; /* Reduced padding */
   height: 700px;
-  width: 450px; /* Adjusted width */
+  width: 500px; /* Adjusted width */
   margin-left: 400px;
   margin-right: 80px;
   text-align: center;
