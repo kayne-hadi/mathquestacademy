@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="styles.css">
+  <title>Algebra Practice</title>
+</head>
+<body>
+  <div class="fullscreen">
+    <div class="background">
+      <div class="custom-card">
+        <img src="assets/steve.png" alt="Steve" class="steve-image">
+        <p class="body-txt1">
+          Yo, the name's Steve and I'm here to guide you through this next lesson. In the world of equations, simple multi-step algebra is like a series of traps and treasures waiting to be uncovered. You start with your basic arithmetic, but soon you find yourself entangled in a web of variables, coefficients, and constants. A tip for multi-step algebra is to start with the variables first then work your way to the constants of any equation. Calculate each then you're sure to succeed.
+        </p>
+      </div>
+
+      <div class="parchment">
+        <p class="body-txt">Practice Exercises</p>
+        <select id="difficulty-picker" class="picker">
+          <option value="easy">Two Constants</option>
+          <option value="medium">Two Variables</option>
+          <option value="hard">Two Constants & Variables</option>
+        </select>
+
+        <div class="dataspace">
+          <p class="body-txt1">Solve for a in this equation</p>
+          <p id="question" class="body-txt"></p>
+          <p class="body-txt">a = ?</p>
+        </div>
+
+        <div class="row">
+          <p class="body-txt1">Score: <span id="score">0</span></p>
+          <p class="body-txt1">Mistakes: <span id="mistakes">0</span></p>
+        </div>
+
+        <input id="answer" class="input-box" type="number" placeholder="Input your answer here">
+
+        <div class="row">
+          <button class="button3" onclick="evaluateX()">Answer</button>
+          <button class="button3" onclick="generateNewQuestion()">Generate</button>
+        </div>
+
+        <button class="button2" onclick="goToHome()">Return to Crossroads</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
