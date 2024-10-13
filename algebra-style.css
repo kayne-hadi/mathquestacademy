@@ -55,6 +55,7 @@ body {
 }
 
 .button-txt {
+    font-family: 'Morris Roman', sans-serif;
     font-weight: bold;
     font-size: 35px;
     text-align: center;
