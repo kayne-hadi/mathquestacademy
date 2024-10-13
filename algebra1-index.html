@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Algebra1</title>
+    <link rel="stylesheet" href="algebra1-style.css">
+    <style>
+        body {
+            align-items: left;
+            background-image: url("./assets/albracore.png"); /* Path to the image */
+            background-size: cover;  /* Ensures the image covers the entire div */
+            background-position: center;  /* Centers the image */
+            background-attachment: fixed;
+        }
+        .parchment {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: 400px;
+            width: auto;
+            padding: 70px;
+            background-image: url("./assets/parchment.png"); /* Path to the parchment image */
+            background-size: cover;  /* Ensures the image covers the div */
+            background-position: center;  /* Centers the image */
+            align-self: flex-start; /* Moves the parchment to the left side */
+            margin-left: 50px; /* Optional: Adds space from the left edge */
+        }
+    </style>
+</head>
+<body>
+    <div class="fullscreen">
+        <div class="background">
+            <div class="custom-card">
+                <img src="assets/allen.png" alt="Albracore Image" style="height: 350px; width: 320px; align-self: center;" />
+                <p class="body-txt1">
+                    Alright, gather 'round, you curious soul, and brace yourselves for a
+                    journey into the shadowy realms of algebra. I ain't here to hold
+                    your hand; I'm here to spill the secrets of the enigmatic art that
+                    they call algebra.
+                </p>
+                <p class="body-txt1">
+                    Algebra, my friend, is the rogue of the mathematical underworld.
+                    It's all about decoding the secret messages that numbers and letters
+                    whisper to each other in the dark. Our job is to find where X marks
+                    the spot and A lurks in the shadows. Why don't you try, newbie?
+                </p>
+            </div>
+            
+            <div class="parchment">
+                <p class="body-txt">Practice Exercises</p>
+                <p class="body-txt1">Solve for a in this equation:</p>
+                <p class="body-txt" id="question">x + 2 = 10</p>
+                <p class="body-txt">a = ?</p>
+                
+                <div class="row">
+                    <p class="body-txt1">Score: <span id="score">0</span></p>
+                    <p class="body-txt1">Mistakes: <span id="mistakes">0</span></p>
+                </div>
+                
+                <input type="text" id="answer" class="input-box" placeholder="Input your answer here" />
+
+                <div class="row">
+                    <button class="button-txt" onclick="evaluateX()">Answer</button>
+                    <p class="body-txt"> | </p>
+                    <button class="button-txt" onclick="generateNewQuestion()">Generate</button>
+                </div>
+
+                <button class="button-txt" onclick="goToNextLesson()">Next Lesson</button>
+            </div>
+        </div>
+    </div>
+
+    <script src="algebra1-script.js"></script>
+</body>
+</html>
