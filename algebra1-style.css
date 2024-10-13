@@ -1,0 +1,95 @@
+/* Fullscreen layout */
+.fullscreen {
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+/* Background image */
+.background {
+    flex-direction: row;
+    align-self: flex-start;
+    height: 825px;
+    width: 1475px;
+}
+
+/* Body text styling */
+.body-txt {
+    font-weight: bold;
+    font-family: 'Morris Roman', serif;
+    font-size: 40px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+/* Small text */
+.body-txt1 {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Morris Roman', serif;
+    text-align: center;
+    color: black;
+    margin: 0;
+    margin-top: 20px;
+}
+
+/* Card styling */
+.custom-card {
+    align-self: flex-end;
+    background-color: #bdbffc;
+    border-width: 2px;
+    border-color: grey;
+    padding: 20px;
+    width: 600px;
+    margin-bottom: 45px;
+    margin-left: 75px;
+}
+
+/* Parchment styling */
+.parchment {
+    align-self: flex-start;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 70px;
+    margin-left: 300px;
+    height: 700px;
+    width: 430px;
+    padding: 10px;
+    background-image: url('./assets/parchment.png');
+    background-size: cover;
+    background-position: center;
+}
+
+/* Row styling */
+.row {
+    flex-direction: row;
+    padding: 0;
+    margin-top: 0;
+}
+
+/* Button text styling */
+.button-txt {
+    font-weight: bold;
+    font-family: 'Morris Roman', serif;
+    font-size: 30px;
+    text-align: center;
+    color: blue;
+    margin: 5px;
+    cursor: pointer;
+}
+
+/* Input box styling */
+.input-box {
+    align-self: center;
+    background-color: white;
+    width: 90%;
+    height: 40px;
+    padding: 10px;
+    margin: 15px;
+    font-size: 20px;
+    font-family: 'Morris Roman', serif;
+    border-radius: 10px;
+    text-align: center;
+    border-width: 2px;
+}
