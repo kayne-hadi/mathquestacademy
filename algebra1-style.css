@@ -59,6 +59,7 @@
     padding: 20px;
     height: 700px; /* Set to the same height as the custom card */
     width: 600px;
+    margin-top: 20px; /* Optional: Adjust as needed */
     margin-bottom: 45px;
     margin-left: 75px;
     margin-right: 30px; /* Space between the custom-card and parchment */
@@ -73,6 +74,7 @@
     height: 700px;
     width: 430px;
     padding: 10px;
+    margin-top: 20px; /* Optional: Adjust as needed */
     background-image: url('./assets/parchment.png');
     background-size: cover;
     background-position: center;
