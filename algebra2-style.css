@@ -9,7 +9,8 @@
   display: flex;
   flex-direction: row;
   height: auto;
-  width: 100%;
+  width: 100%; /* This ensures it spans the full width of the screen */
+  justify-content: space-between; /* Allows children to grow */
 }
 
 /* Custom Card */
