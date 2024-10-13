@@ -7,7 +7,7 @@ document.addEventListener('DOMContentLoaded', () => {
         let equation = '';
         
         // Generate a random coefficient between 2 and 20
-        const coefficient = Math.floor(Math.random() * 40) + 1;
+        const coefficient = Math.floor(Math.random() * 30) + 1;
         
         // Generate a constant that is a multiple of the coefficient
         // This guarantees the result will be a whole number
