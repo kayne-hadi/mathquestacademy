@@ -39,7 +39,7 @@
   background-image: url('./assets/parchment.png');
   background-size: cover;
   background-position: center;
-  padding: 20px; /* Reduced padding */
+  padding: 15px; /* Reduced padding */
   height: 700px;
   width: 550px; /* Adjusted width */
   margin-left: 400px;
