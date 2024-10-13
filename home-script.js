@@ -3,9 +3,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const username = localStorage.getItem('username');
     const usernameElement = document.getElementById('username');
 
-    if (username) {
+    if (username && usernameElement) {
         usernameElement.textContent = capitalizeFirst(username);
-    } else {
+    } else if (usernameElement) {
         usernameElement.textContent = 'Guest';
     }
 
@@ -13,6 +13,14 @@ document.addEventListener('DOMContentLoaded', () => {
     function capitalizeFirst(str) {
         return str.charAt(0).toUpperCase() + str.slice(1);
     }
+
+    // Fixing the button selection to use ID with #
+    document.querySelector('#algebra-btn').addEventListener('click', () => {
+        // Navigate to Algebra page
+        console.log('Algebra button clicked!');
+        window.location.href = 'algebra-index.html'; // Adjust this to the correct path of your page
+    });
+});
 
     // // Handle navigation to different pages
     // document.getElementById('arithmetic-btn').addEventListener('click', () => {
@@ -24,11 +32,3 @@ document.addEventListener('DOMContentLoaded', () => {
     //     // Navigate to Statistics page
     //     window.location.href = 'statistics.html';
     // });
-
-    document.querySelector('algebra-btn').addEventListener('click', () => {
-        // Navigate to Algebra page
-        console.log('Algebra button clicked!');
-        window.location.href = 'algebra-index.html'; // Adjust this to the correct path of your home page
-
-    });
-});
