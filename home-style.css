@@ -1,0 +1,71 @@
+body {
+    font-family: 'Morris Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.fullscreen {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.background {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url('assets/statistine.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 825px;
+    width: 1475px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+
+.parchment {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image: url('assets/parchment.png');
+    background-size: cover;
+    width: 380px;
+    height: 600px;
+    margin-right: 50px;
+}
+
+.body-txt {
+    font-size: 30px;
+    font-weight: bold;
+    color: #000000;
+    text-align: center;
+    margin: 20px 0;
+}
+
+.button {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.button-img {
+    width: 370px;
+    height: 400px;
+}
+
+.button-txt {
+    font-size: 30px;
+    color: blue;
+    font-weight: bold;
+    margin: 5px 0;
+}
