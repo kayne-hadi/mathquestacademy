@@ -9,11 +9,11 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Handle button presses for different algebra lessons
   document.querySelector('#algebra1').addEventListener('click', () => {
-    window.location.href = 'unlocking-algebra.html';
+    window.location.href = 'algebra1-index.html';
   });
 
   document.querySelector('#algebra2').addEventListener('click', () => {
-    window.location.href = 'keep-it-simple.html';
+    window.location.href = 'algebra2-index.html';
   });
 
   // Update the text with the username
