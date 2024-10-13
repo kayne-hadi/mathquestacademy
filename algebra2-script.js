@@ -39,7 +39,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const const1 = Math.floor(Math.random() * maxConstant) + 1;
     const const2 = Math.floor(Math.random() * maxConstant) + 1;
     const operator2 = ['+', '-', '*', '/'];
-    return `${var1}x = ${const1} ${
+    return `${var1}a = ${const1} ${
       operator2[Math.floor(Math.random() * operator2.length)]
     } ${const2}`;
   }
@@ -49,9 +49,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const var2 = Math.floor(Math.random() * maxCoefficient) + 2;
     const const1 = Math.floor(Math.random() * maxConstant) + 1;
     const operator = ['+', '-'];
-    return `${var1}x ${
+    return `${var1}a ${
       operator[Math.floor(Math.random() * operator.length)]
-    } ${var2}x = ${const1}`;
+    } ${var2}a = ${const1}`;
   }
   
   function generate2var2const(maxCoefficient, maxConstant) {
@@ -61,9 +61,9 @@ document.addEventListener('DOMContentLoaded', () => {
     const const2 = Math.floor(Math.random() * maxConstant) + 1;
     const operator = ['+', '-'];
     const operator2 = ['+', '-', '*', '/'];
-    return `${var1}x ${
+    return `${var1}a ${
       operator[Math.floor(Math.random() * operator.length)]
-    } ${var2}x = ${const1} ${
+    } ${var2}a = ${const1} ${
       operator2[Math.floor(Math.random() * operator2.length)]
     } ${const2}`;
   }
