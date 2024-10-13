@@ -1,0 +1,73 @@
+/* algebra.css */
+
+body {
+    font-family: 'Morris Roman', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #FFFFFF;
+}
+
+.body-txt {
+    font-weight: bold;
+    font-size: 30px;
+    text-align: center;
+    color: #000000;
+    margin: 0;
+}
+
+.fullscreen {
+    height: 100vh;
+    background-color: #FFFFFF;
+}
+
+.background {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    background-image: url('./assets/albracore.png');
+    background-size: cover;
+    height: 825px;
+    width: 100%;
+}
+
+.parchment {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    background-image: url('./assets/parchment.png');
+    background-size: cover;
+    height: 600px;
+    width: 380px;
+    padding: 50px;
+}
+
+.custom-card {
+    align-self: flex-end;
+    background-color: #bdbffc;
+    border: 2px solid grey;
+    padding: 20px;
+    width: 600px;
+    margin-bottom: 85px;
+    margin-left: 300px;
+}
+
+.button-txt {
+    font-weight: bold;
+    font-size: 35px;
+    text-align: center;
+    color: blue;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    margin: 5px 0;
+}
+
+.allen-img {
+    display: block;
+    margin: 0 auto;
+    height: 500px;
+    width: 460px;
+}
