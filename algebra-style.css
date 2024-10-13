@@ -15,6 +15,14 @@ body {
     margin: 0;
 }
 
+#username-greeting {
+  text-align: center;    /* Centers the text horizontally */
+  font-size: 24px;       /* Adjust the size as needed */
+  margin-top: 20px;      /* Adjusts space from the top */
+  display: block;        /* Ensures the element behaves like a block */
+  width: 100%;           /* Takes the full width of the container */
+}
+
 .fullscreen {
     height: 100vh;
     background-color: #FFFFFF;
