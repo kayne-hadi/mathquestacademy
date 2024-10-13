@@ -19,6 +19,13 @@ body {
 .greeting-message {
     margin-bottom: -20px; /* Reduces the space below the text */
     margin-top: 40px;
+    background-color: #e3e3e3; /* Light grey background */
+    padding: 20px;             /* Adds spacing inside the box */
+    border: 2px solid #ccc;     /* Optional: A subtle border around the box */
+    border-radius: 8px;         /* Optional: Rounded corners */
+    width: 90%;                 /* Adjusts the width */
+    text-align: center;         /* Centers the text inside */
+    font-size: 20px;            /* Adjust the font size */
 }
 
 
