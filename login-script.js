@@ -7,8 +7,10 @@ document.querySelector('.button-txt').addEventListener('click', () => {
     if (username === '') {
         alert('Please enter a username!');
     } else {
-        // Navigate to home page or another action
-        alert(`Welcome, ${username}!`);
-        usernameInput.value = ''; // Clear the input
+        // Store the username in localStorage to use on the home page
+        localStorage.setItem('username', username);
+        
+        // Navigate to home page
+        window.location.href = 'home.html'; // Adjust this to the correct path of your home page
     }
 });
