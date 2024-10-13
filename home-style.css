@@ -54,7 +54,6 @@ body {
 }
 
 .parchment {
-    .parchment {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -62,7 +61,7 @@ body {
     background-size: cover;
     background-position: center;
     margin-left: 40px;
-    margin-top: -20px; /* Reduces space between parchment and the previous element */
+    margin-top: -20px;
 }
 
 }
