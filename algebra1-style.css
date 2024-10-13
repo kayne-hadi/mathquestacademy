@@ -40,6 +40,16 @@
     margin-top: 20px;
 }
 
+.body-txt1 {
+    font-weight: bold;
+    font-size: 25px;
+    font-family: 'Morris Roman', serif;
+    text-align: center;
+    color: black;
+    margin: 0;
+    margin-top: 20px;
+}
+
 /* Card styling */
 .custom-card {
     align-self: flex-end;
