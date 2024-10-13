@@ -22,10 +22,8 @@ document.addEventListener('DOMContentLoaded', () => {
         if (Math.abs(userX - correctX) <= 0.01) {
             score++;
             question = generateQuestion();
-            alert('Correct!');
         } else {
             mistakes++;
-            alert('Incorrect, try again!');
         }
 
         document.getElementById('score').textContent = score;
