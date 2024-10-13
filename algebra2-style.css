@@ -75,6 +75,7 @@
   font-family: 'Morris Roman', sans-serif;
   color: black;
   margin-top: 20px;
+  align-self: center;
 }
 
 /* Input box */
