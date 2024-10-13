@@ -25,10 +25,10 @@ document.addEventListener('DOMContentLoaded', () => {
     //     window.location.href = 'statistics.html';
     // });
 
-    document.getElementById('algebra-btn').addEventListener('click', () => {
+    document.querySelector('algebra-btn').addEventListener('click', () => {
         // Navigate to Algebra page
         console.log('Algebra button clicked!');
-        window.location.href = './algebra-index.html';  // Add './' to ensure it's relative to the current directory
+        window.location.href = 'algebra-index.html'; // Adjust this to the correct path of your home page
 
     });
 });
