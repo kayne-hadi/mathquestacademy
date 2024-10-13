@@ -17,7 +17,7 @@ body {
 
 /* Specifically for the greeting message */
 .greeting-message {
-    margin-bottom: 30px; /* Reduces the space below the text */
+    margin-bottom: 60px; /* Reduces the space below the text */
     margin-top: 40px;
     background-color: #e3e3e3; /* Light grey background */
     padding: 10px;             /* Adds spacing inside the box */
