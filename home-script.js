@@ -27,6 +27,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     document.getElementById('algebra-btn').addEventListener('click', () => {
         // Navigate to Algebra page
-        window.location.href = 'algebra.html';
+        window.location.href = 'algebra-index.html';
     });
 });
