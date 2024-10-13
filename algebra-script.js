@@ -1,7 +1,7 @@
 // algebra.js
 
 document.addEventListener('DOMContentLoaded', () => {
-  const usernameNewbie = localStorage.getItem('usernameNewbie') || 'Newbie';
+  const usernameNewbie = localStorage.getItem('username') || 'Newbie';
 
   const capitalizeFirst = (str) => {
     return str.charAt(0).toUpperCase() + str.slice(1);
