@@ -89,7 +89,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   function goToHome() {
-    window.location.href = 'home.html';
+    window.location.href = 'home-index.html';
   }
 
   window.evaluateX = evaluateX;
