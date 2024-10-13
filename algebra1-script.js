@@ -5,17 +5,19 @@ document.addEventListener('DOMContentLoaded', () => {
 
     function generateQuestion() {
         let equation = '';
+        
         // Generate a random coefficient between 2 and 20
         const coefficient = Math.floor(Math.random() * 20) + 2;
         
         // Generate a constant that is a multiple of the coefficient
-        const constant = Math.floor(Math.random() * 200) + 1;
-        const correctX = constant / coefficient;
+        // This guarantees the result will be a whole number
+        const multiplier = Math.floor(Math.random() * 10) + 1; // Random multiplier
+        const constant = coefficient * multiplier; // Constant is now a multiple of coefficient
 
-        // Ensure that the equation results in a whole number by multiplying
-        const adjustedConstant = coefficient * correctX; // This will ensure the result is an integer
+        // The correct answer is guaranteed to be an integer
+        const correctX = constant / coefficient; // This will always yield a whole number
         
-        equation = `${coefficient}x = ${adjustedConstant}`;
+        equation = `${coefficient}x = ${constant}`;
         document.getElementById('question').textContent = equation;
 
         return { equation, correctX };
