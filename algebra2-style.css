@@ -19,8 +19,9 @@
   background-color: #bdbffc;
   border-width: 2px;
   border-color: grey;
-  padding: 50px;
-  width: 1000px;
+  padding: 30px; /* Reduced padding */
+  width: 1200px; /* Increased width */
+  height: 500px; /* Decreased height */
   margin-bottom: 70px;
   margin-left: 75px;
   marign-top: 20px;
@@ -38,9 +39,9 @@
   background-image: url('./assets/parchment.png');
   background-size: cover;
   background-position: center;
-  padding: 10px;
+  padding: 5px; /* Reduced padding */
   height: 700px;
-  width: 430px;
+  width: 450px; /* Adjusted width */
   margin-left: 400px;
   margin-right: 80px;
   text-align: center;
@@ -50,8 +51,8 @@
 .row {
   display: flex;
   justify-content: center;
-  gap: 10px;
-  margin-top: 20px;
+  gap: 5px; /* Reduced gap */
+  margin-top: 10px; /* Reduced margin */
 }
 
 /* Large Text */
@@ -60,6 +61,7 @@
   font-family: 'Morris Roman', sans-serif;
   font-size: 40px;
   color: #000000;
+  margin-bottom: 10px; /* Reduced spacing */
 }
 
 .body-txt1 {
@@ -74,7 +76,7 @@
   font-size: 25px;
   font-family: 'Morris Roman', sans-serif;
   color: black;
-  margin-top: 20px;
+  margin-top: 10px;
   align-self: center;
 }
 
