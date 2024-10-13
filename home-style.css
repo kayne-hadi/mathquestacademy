@@ -64,6 +64,7 @@ body {
 }
 
 .button-txt {
+    font-family: 'Morris Roman', sans-serif;
     font-size: 30px;
     color: blue;
     font-weight: bold;
