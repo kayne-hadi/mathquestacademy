@@ -1,7 +1,7 @@
 /* Renders UI */
 .fullscreen {
   height: 100vh;
-  background-color: #FFFFFF;
+  background-color: transparent;
 }
 
 /* Background for Home */
