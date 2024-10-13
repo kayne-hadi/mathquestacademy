@@ -74,9 +74,8 @@ body {
     color: blue;
     margin: 5px;
     cursor: pointer;
-    width: 400; /* Set desired width */
-    height: 50px; /* Set desired height */
-    padding: 10px 20px; /* Optional: Adjust padding for better sizing */
+    width: 90%; /* Set desired width */
+    padding: 15px 0; /* Optional: Adjust padding for better sizing */
 }
 
 .parchment {
