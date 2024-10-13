@@ -1,12 +1,3 @@
-/* styles.css */
-/* Add the @font-face rule */
-@font-face {
-    font-family: 'Morris Roman';
-    src: url("./assets/MorrisBlack-Roman.ttf") format('truetype'); /* Adjust the format and path if necessary */
-    font-weight: normal;
-    font-style: normal;
-}
-
 body {
     margin: 0;
     font-family: 'Morris Roman', sans-serif;
