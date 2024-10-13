@@ -5,6 +5,33 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Home Page</title>
     <link rel="stylesheet" href="home-style.css">
+    <style>
+        body {
+            align-items: left;
+            background-image: url("./assets/statistine.jpg"); /* Path to the image */
+            background-size: cover;  /* Ensures the image covers the entire div */
+            background-position: center;  /* Centers the image */
+            background-attachment: fixed;
+        }
+        .row {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 30px;
+        }
+        .parchment {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            height: auto;
+            width: 540px;
+            padding: 70px;
+            background-image: url("./assets/parchment.png"); /* Path to the parchment image */
+            background-size: cover;  /* Ensures the image covers the div */
+            background-position: center;  /* Centers the image */
+            align-self: flex-start; /* Moves the parchment to the left side */
+            margin-left: 40px; /* Optional: Adds space from the left edge */
+        }
+    </style>
 </head>
 <body>
     <div class="fullscreen">
