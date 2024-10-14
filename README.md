@@ -1,11 +1,14 @@
-##MathQuest Academy
 
-Open the App.js file to start writing some code. You can preview the changes directly on your phone or tablet by scanning the QR code or use the iOS or Android emulators. When you're done, click Save and share the link!
+This app was made originally on React Native's Snack Expo by Kayne Raphael Hadipoespito
+This version of the app is a prototype made to work on GitHub from the original React Native code.
+For the best experience, please access this link on your laptop
 
-When you're ready to see everything that Expo provides (or if you want to use your own editor) you can Download your project and use it with expo cli).
+If you would like to start the app, please click or copy this link as to navigate to the login page:
+https://kayne-hadi.github.io/mathquestacademy/login-index.html
 
-All projects created in Snack are publicly available, so you can easily share the link to this project via link, or embed it on a web page with the <> button.
 
-If you're having problems, you can tweet to us @expo or ask in our forums or Discord.
 
-Snack is Open Source. You can find the code on the GitHub repo.
+#Developer Notes from Kayne Hadipoespito:
+Hello Everyone and thank you for using this app.
+I made this app in the hopes of helping people find practice in math while also making its learning process more fun. 
+I hope I would be able to achieve that one day by making this app. 
