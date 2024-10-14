@@ -1,5 +1,5 @@
 
-This app was made originally on React Native's Snack Expo by Kayne Raphael Hadipoespito
+This app was made originally on React Native's Snack Expo by Kayne Raphael Hadipoespito.
 This version of the app is a prototype made to work on GitHub from the original React Native code.
 For the best experience, please access this link on your laptop
 
